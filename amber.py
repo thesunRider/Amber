@@ -264,7 +264,7 @@ done'''
  shutil.rmtree( os.getcwd()+"/tmp/")
  print(TGREEN + " [+] Package exported to:" + outputfile)
  print( " [+] Script exported to:" + script_out)
- print( " [!] In the shell window of the target Upload the script and enter ' setsid <scriptname.sh> & ' to gain persistence") 
+ print( " [!] In the shell window of the target Upload the script and enter ' setsid sh <scriptname.sh> & ' to gain persistence") 
  exit()
 
 intro_interface()
